@@ -1,12 +1,16 @@
 {
-  "name": "cli_api_shitaki_muschoom",
-  "module": "index.ts",
+  "name": "cli-api-shitaki-muschoom",
+  "module": "src/index.ts",
   "type": "module",
-  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.0.0"
   }
+  
 }
